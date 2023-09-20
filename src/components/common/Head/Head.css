@@ -1,0 +1,37 @@
+.head{
+    padding: 20px 0;
+    color: #fff;
+}
+.logo h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+.head span{
+    font-size: 15px;
+}
+
+.head .icon{
+    margin-left: 12px;
+}
+.container{
+    max-width: 85%;
+    margin: auto;
+}
+.flexSB{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #1eb2a6;
+    transition: 0.5s;
+}
+.icon:hover{
+    cursor: pointer;
+    background-color: #1eb2a6;
+    color: #fff;
+}
