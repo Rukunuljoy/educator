@@ -29,7 +29,7 @@
     width: 70px;
     height: 70px;
 }
-.aboutHome ,.item h2{
+.aboutHome .item h2{
     font-size: 20px;
     margin-bottom: 15px;
 }
@@ -72,4 +72,28 @@
 }
 .flex{
     display: flex;
+}
+@media screen and (max-width: 768px){
+    .grid{
+        display: grid;
+    grid-template-columns: repeat(2,1fr);
+    }
+    .back{
+        background-position:  center;
+        
+        height: 80vh;
+    }
+    .aboutHome{
+        margin-top: 40%;
+    }
+    .aboutHome .container{
+        flex-direction: column-reverse;
+    }
+    .aboutHome .row{
+        width: 100%;
+    
+    }
+    .awrapper{
+        height: 50vh;
+    }
 }
