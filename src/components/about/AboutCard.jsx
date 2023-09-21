@@ -14,7 +14,7 @@ const AboutCard = () => {
                     <div className="right row">
                         <Title subtitle="Learn Anything" title="Benefit About Online Learning Expertise"/>
                         <div className="items">{homeAbout.map((val)=>(
-                            <div key={val.id} className="items flexSB">
+                            <div key={val.id} className="item flexSB">
                                 <div className="img">
                                     <img src={val.cover} alt="" />
                                 </div>
