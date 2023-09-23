@@ -1,13 +1,17 @@
-import { coursesCard } from "../../dummydata";
 import { AiFillStar } from "react-icons/ai";
-import "./Courses.css";
+import Title from "../../common/title/Title";
+import { coursesCard } from "../../../dummydata";
+import OnlineCourses from "../../allCourses/OnlineCourses";
 
-const CoursesCard = () => {
-  return (
-    <>
-      <section className="coursesCard">
-        <div className="container grid2">
-          {coursesCard.map((val) => {
+const HAbout = () => {
+    return (
+        <>
+             <section className="HomeAbout">
+        <div className="container">
+            <Title subtitle="our courses" title="explore our popular online courses"/>
+        <div className="coursesCard">
+        <div className=" grid2">
+          {coursesCard.slice(0,3).map((val) => {
             return (
               <div key={val.id} className="items">
                 <div className="content flex">
@@ -48,9 +52,12 @@ const CoursesCard = () => {
             );
           })}
         </div>
-      </section>
-    </>
-  );
+        </div>
+        </div>
+      </section>  
+      <OnlineCourses/> 
+        </>
+    );
 };
 
-export default CoursesCard;
+export default HAbout;

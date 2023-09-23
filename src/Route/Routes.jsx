@@ -5,6 +5,8 @@ import Route from "../Layout/Route";
 import Home from "../components/Home/Home/Home";
 import About from "../components/about/About";
 import CoursesHome from "../components/allCourses/CoursesHome";
+import Team from "../components/team/Team";
+import Price from "../components/pricing/Price";
   
   export const router = createBrowserRouter([
     {
@@ -23,6 +25,14 @@ import CoursesHome from "../components/allCourses/CoursesHome";
             path:'/courses',
             element:<CoursesHome/>
         },
+        {
+            path:'/team',
+            element:<Team/>
+        },
+        {
+          path:'/pricing',
+          element:<Price/>
+      },
       ]
     },
   ]);

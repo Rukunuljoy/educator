@@ -21,17 +21,18 @@
     display: flex;
     justify-content: space-between;
 }
-.icon{
-    width: 30px;
-    height: 30px;
+.icon {
+    width: 25px;
+    height: 25px;
     line-height: 40px;
     border-radius: 50%;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
     color: #1eb2a6;
     transition: 0.5s;
-}
-.icon:hover{
+  }
+  .icon:hover {
     cursor: pointer;
     background-color: #1eb2a6;
     color: #fff;
-}
+  }

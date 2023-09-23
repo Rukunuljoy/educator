@@ -1,5 +1,6 @@
 import Back from "../common/BackGround/Back";
 import CoursesCard from "./CoursesCard";
+import OnlineCourses from "./OnlineCourses";
 
 
 const CoursesHome = () => {
@@ -7,6 +8,7 @@ const CoursesHome = () => {
         <div>
             <Back title="Explore Courses"/>
             <CoursesCard/>
+            <OnlineCourses/>
         </div>
     );
 };

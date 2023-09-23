@@ -39,3 +39,61 @@ body{
 .margin{
     margin-top: 17%;
 }
+@media screen and (max-width: 768px) {
+    .grid2,
+    .grid3,
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .back {
+      background-position: center;
+      padding-top: 50%;
+      height: 80vh;
+    }
+    .aboutHome {
+      margin-top: 40%;
+    }
+    .aboutHome .container {
+      flex-direction: column-reverse;
+    }
+    .aboutHome .row {
+      width: 100%;
+    }
+    .awrapper {
+      height: 50vh;
+    }
+    .margin {
+      margin-top: 40%;
+    }
+    .start {
+      clip-path: none;
+    }
+    header {
+      margin: 0;
+      background-color: #1eb2a6;
+      position: relative;
+    }
+    header ul.flexSB {
+      display: none;
+    }
+    header ul li {
+      margin-bottom: 20px;
+    }
+    .toggle {
+      display: block;
+      background: none;
+      color: #fff;
+      font-size: 30px;
+      position: absolute;
+      right: 0;
+      top: -20px;
+    }
+    .mobile-nav {
+      position: absolute;
+      top: 7vh;
+      left: 0;
+      width: 100%;
+      background-color: #1eb2a6;
+    }
+  }
