@@ -1,5 +1,6 @@
 import { Outlet } from "react-router";
 import Header from "../components/common/heading/Header";
+import Footer from "../components/common/Footer/Footer";
 
 
 const Route = () => {
@@ -7,6 +8,9 @@ const Route = () => {
         <div>
             <Header/>
             <Outlet/>
+            <div className="footers">
+            <Footer/>
+            </div>
         </div>
     );
 };

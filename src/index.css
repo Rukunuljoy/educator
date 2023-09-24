@@ -26,6 +26,9 @@ body{
     color: #fff;
     text-align: center;
 }
+.footers{
+  margin-top: 40px;
+}
 
 .back h1{
     font-size: 100px;
@@ -60,9 +63,6 @@ body{
       background-position: center;
       padding-top: 50%;
       height: 80vh;
-    }
-    .aboutHome {
-      margin-top: 40%;
     }
     .aboutHome .container {
       flex-direction: column-reverse;
