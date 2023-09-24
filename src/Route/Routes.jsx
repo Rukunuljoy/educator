@@ -7,6 +7,7 @@ import About from "../components/about/About";
 import CoursesHome from "../components/allCourses/CoursesHome";
 import Team from "../components/team/Team";
 import Price from "../components/pricing/Price";
+import Blog from "../components/blog/Blog";
   
   export const router = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ import Price from "../components/pricing/Price";
         {
           path:'/pricing',
           element:<Price/>
+      },
+        {
+          path:'/journal',
+          element:<Blog/>
       },
       ]
     },

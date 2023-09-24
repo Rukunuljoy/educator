@@ -39,6 +39,16 @@ body{
 .margin{
     margin-top: 17%;
 }
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 30px;
+}
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-gap: 10px;
+}
 @media screen and (max-width: 768px) {
     .grid2,
     .grid3,
